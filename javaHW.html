@@ -1,0 +1,32 @@
+<html>
+    <h1 style="font-family: Ravie;">Your perSonAl Calculator~</h1>
+
+    <div id="add"></div>
+    <div id="sub"></div>
+    <div id="mul"></div>
+    <div id="div"></div>
+
+    <body style="font-family: Tahoma;background-color: rgb(141, 135, 127);">
+        <script>
+            var num1=3;
+            var num2=7;
+
+            var add = num1 + num2;
+            var sub = num1 - num2;
+            var mul = num1 * num2;
+            var div = num1 / num2;
+
+            document.getElementById("add").innerHTML="The added value is " + add;
+
+            document.getElementById("sub").innerHTML = "The subtracted value is " + sub;
+
+            document.getElementById("mul").innerHTML = "The multiplied value is " + mul;
+
+            document.getElementById("div").innerHTML = "The divided value is " + div.toFixed(3);
+
+
+
+        </script>
+        
+    </body>
+</html>
